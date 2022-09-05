@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { Box, Heading, ListItem, UnorderedList } from '@chakra-ui/react'
+import { Box, Heading, ListItem, Text, UnorderedList } from '@chakra-ui/react'
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +16,7 @@ const Home: NextPage = () => {
         <ListItem>きたけ</ListItem>
         <ListItem>かたはば</ListItem>
         <ListItem>みはば</ListItem>
+        <Text>aaa</Text>
       </UnorderedList>
     </Box>
     </>
