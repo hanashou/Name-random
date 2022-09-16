@@ -1,23 +1,23 @@
 import type { NextPage } from 'next'
-import { Box, Heading, ListItem, Text, UnorderedList } from '@chakra-ui/react'
+import { Box, Heading, Text } from '@chakra-ui/react'
+import { Header } from '../components/Header/Header'
 
 const Home: NextPage = () => {
   return (
     <>
+    <Header/>
     <Heading
     p="25px"
     textAlign="center"
-    >HelloWorld</Heading>
+    fontFamily="Renner*"
+    >トップページ</Heading>
     <Box
     textAlign="center"
     >
-      <UnorderedList>
-        <ListItem>そでたけ</ListItem>
-        <ListItem>きたけ</ListItem>
-        <ListItem>かたはば</ListItem>
-        <ListItem>みはば</ListItem>
-        <Text>aaa</Text>
-      </UnorderedList>
+        <Text>そでたけ</Text>
+        <Text>きたけ</Text>
+        <Text>かたはば</Text>
+        <Text>みはば</Text>
     </Box>
     </>
   )
